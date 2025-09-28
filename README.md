@@ -1,4 +1,4 @@
-# Interactive Document Assistant
+# Interactive Document Assistant using Ollama and FastAPI
 
 ---
 
