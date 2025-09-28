@@ -14,6 +14,31 @@ This project is a FastAPI-based web application that allows users to upload PDF 
 - Simple and intuitive web interface to interact with the assistant.
 -  **Customizable model selection**: Users can choose their own model for embeddings and answering queries.
 
+## Project Structure
+
+Here’s the structure of the project:
+interactive-document-assistant/
+
+│
+
+├── main.py                    # FastAPI app and endpoints for uploading PDFs and asking questions
+
+├── requirements.txt           # List of dependencies for the project
+
+├── Sample/                      # Contains the sample document to upload and application images
+
+    ├── short-stories-for-children.pdf # Example PDF for uploading and getting response
+  
+    ├── Homepage.png
+  
+    ├── QueryPage.png
+  
+    ├──Responsepage.png
+
+
+└── README.md                  # Project documentation (this file)
+
+
 
 ## Requirements
 
