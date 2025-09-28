@@ -37,29 +37,42 @@ pip install -r requirements.txt
 
 ## Setup
 
-**1. Clone the repository:**
+**1. Create and Activate a Virtual Environment:**
+* Create a virtual environment:
+  
+```
+python -m venv venv
+```
+
+* Activate the virtual environment:
+```
+.\venv\Scripts\activate
+```
+
+
+**2. Clone the repository:**
 ```
 git clone https://github.com/your-username/interactive-document-assistant.git
 ```
 
-**2. Navigate to the project directory:**
+**3. Navigate to the project directory:**
 ```
 cd interactive-document-assistant
 
 ```
 
-**3. Install the required dependencies:**
+**4. Install the required dependencies:**
 ```
 pip install -r requirements.txt
 ```
 
-**4. Run the FastAPI app:**
+**5. Run the FastAPI app:**
 ```
 uvicorn main:app --reload
 
 ```
 
-**5. Open Application**
+**6. Open Application**
 ```
 Open your browser and go to http://127.0.0.1:8000 to use the application.
 ```
